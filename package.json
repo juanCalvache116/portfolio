@@ -1,0 +1,21 @@
+{
+  "name": "juan-camilo-portfolio",
+  "version": "1.2.0",
+  "description": "Technical Portfolio & Simulation Showcase for Juan Camilo Calvache Giraldo",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "serve": "npx serve . -l 3000",
+    "bundle": "node -e \"const fs=require('fs'); const d=fs.readFileSync('js/data.js','utf8'); const a=fs.readFileSync('js/app.js','utf8'); fs.writeFileSync('js/bundle.js', d + '\\n\\n' + a); console.log('Bundle created at js/bundle.js');\""
+  },
+  "keywords": [
+    "portfolio",
+    "unreal-engine",
+    "unity",
+    "game-programming",
+    "vr-simulation"
+  ],
+  "author": "Juan Camilo Calvache Giraldo",
+  "license": "MIT"
+}
